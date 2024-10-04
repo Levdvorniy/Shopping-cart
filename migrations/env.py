@@ -19,7 +19,7 @@ fileConfig(config.config_file_name)
 
 # add your model's MetaData object here
 # for 'autogenerate' support
-from Models import Base  # Импорт моделей
+from Models.Models import Base  # Импорт моделей
 target_metadata = Base.metadata
 
 def run_migrations_offline():

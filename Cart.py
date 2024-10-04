@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.future import select
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import sessionmaker
-from Models import User, Product, CartItem
+from Models.Models import User, Product, CartItem
 from config import settings
 
 app = FastAPI()
